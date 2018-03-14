@@ -1,0 +1,6 @@
+FROM scratch
+ADD main /
+COPY config /config/
+COPY template /template/
+COPY static /static/
+CMD ["/main"]
